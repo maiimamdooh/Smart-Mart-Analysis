@@ -7,7 +7,6 @@ Comprehensive analytics solution for Smart-Mart retail operations,using power qu
 - Customer segmentation by return behavior
 - Temporal trends in sales and returns
 
-
 ## 📊 Key Metrics
 - **Total Sales:** $4M
 - **Total Profit:** $809K
@@ -15,7 +14,7 @@ Comprehensive analytics solution for Smart-Mart retail operations,using power qu
 - **Avg Order Size:** 5 items
 - **Total Orders:** 2K
 
-## 🔍 Key Insights
+### 🔍 Key Insights
 ### Sales Performance
 - **Top Sales Rep:** Cristian Popescu ($847K sales)
 - **Best Day:** Thursday ($0.6M sales)
@@ -27,6 +26,15 @@ Comprehensive analytics solution for Smart-Mart retail operations,using power qu
 - **Time of Day:** Evening sees highest return rates 20% vs. 18% morning
 - **Product Categories:** Electronics have highest return rate 36% , 2.3x higher than average
 - **Customer Segments:** Identified high-return customers `Gabriel Petrescu 22% `, `Ion Popescu 21.5%`
+
+
+## Data Visualization (Dashboard) :
+
+Data visualization for the data analysis was done in Microsoft Power BI Desktop:
+
+![Sales Analysis](https://github.com/maiimamdooh/Smart-Mart-Analysis/blob/main/Sales%20Analysis.jpg) 
+
+![Return Analysis](https://github.com/maiimamdooh/Smart-Mart-Analysis/blob/main/Return%20Analysis.jpg) 
 
 
 ## Strategic Recommendations
@@ -64,7 +72,6 @@ erDiagram
     PRODUCTS ||--o{ ORDERS : "contains"
     SALES_REP ||--o{ ORDERS : "handles"
     REGIONS ||--o{ SALES_REP : "assigned_to"
-
 
 
 
